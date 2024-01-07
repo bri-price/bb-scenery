@@ -1,0 +1,24 @@
+{
+  "content": [
+    {
+      "path": "ContentInfo/bb-scenery/ContentHistory.json",
+      "size": 49,
+      "date": 133358113921229842
+    },
+    {
+      "path": "ContentInfo/bb-scenery/Thumbnail.jpg",
+      "size": 19295,
+      "date": 133046876660000000
+    },
+    {
+      "path": "scenery/mycompany/modelLib.BGL",
+      "size": 56,
+      "date": 133356485127073044
+    },
+    {
+      "path": "scenery/mycompany/remove-veg.bgl",
+      "size": 2419,
+      "date": 133358113921197770
+    }
+  ]
+}

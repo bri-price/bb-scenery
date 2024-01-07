@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssetPackage Version="0.1.0">
+	<ItemSettings>
+		<ContentType>SCENERY</ContentType>
+		<Title>BB Scenery</Title>
+		<Manufacturer/>
+		<Creator>My Company</Creator>
+	</ItemSettings>
+	<Flags>
+		<VisibleInStore>false</VisibleInStore>
+		<CanBeReferenced>false</CanBeReferenced>
+	</Flags>
+	<MarketplaceData>
+		<AssetDir>PackageDefinitions\bb-scenery\MarketplaceData\</AssetDir>
+		<OutputDir>MarketplaceData\bb-scenery\</OutputDir>
+	</MarketplaceData>
+	<AssetGroups>
+		<AssetGroup Name="ContentInfo">
+			<Type>Copy</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageDefinitions\bb-scenery\ContentInfo\</AssetDir>
+			<OutputDir>ContentInfo\bb-scenery\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="mymodellib">
+			<Type>ModelLib</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\modelLib\</AssetDir>
+			<OutputDir>scenery\mycompany\</OutputDir>
+		</AssetGroup>
+		<AssetGroup Name="myscene">
+			<Type>BGL</Type>
+			<Flags>
+				<FSXCompatibility>false</FSXCompatibility>
+			</Flags>
+			<AssetDir>PackageSources\scene\</AssetDir>
+			<OutputDir>scenery\mycompany\</OutputDir>
+		</AssetGroup>
+	</AssetGroups>
+</AssetPackage>
+
